@@ -1,0 +1,92 @@
+/* Write your CSS here */
+
+.main-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 1000vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3%;
+  font-family: roboto;
+  align-items: center;
+}
+.sub-container {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 3%;
+  border-radius: 8px;
+}
+.input-styles {
+  width: 100%;
+  height: 34px;
+  font-size: 16px;
+  padding: 8px;
+  font-family: roboto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  border-bottom: 1px solid #171f46;
+  outline: none;
+}
+.appoinment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appoinment-image {
+  width: 40%;
+}
+.text-description {
+  font-size: 14px;
+  color: #b5b7c4;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+.button1 {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  text-align: center;
+  padding-right: 8px;
+  border: 0px;
+  margin-top: 10px;
+}
+.line {
+  border: 1px solid #b5b7c4;
+  margin-top: 15px;
+}
+
+.start-button {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  border-radius: 9px;
+  color: #9897f0;
+  min-width: 70px;
+  font-size: 16px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+}
+.fav-appointments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-style-type {
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text {
+  font-size: 28px;
+  font-weight: 500;
+}

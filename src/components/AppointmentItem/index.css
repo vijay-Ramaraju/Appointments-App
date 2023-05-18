@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.card-style {
+  border: 1px solid #b5b7c4;
+  min-width: 220px;
+  max-width: 280px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 11px;
+  list-style-type: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.title-text-style {
+  font-weight: bold;
+  font-size: 22px;
+  color: #171f46;
+}
+.date-text-style {
+  color: #b5b7c4;
+  font-size: 14px;
+}
+.card-title-star-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star-button {
+  background-color: transparent;
+  border: 0px;
+}
